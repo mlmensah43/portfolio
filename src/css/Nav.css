@@ -1,0 +1,17 @@
+.navbar{
+    margin-top: .5rem;
+}
+
+#nav-pages{
+    font-size: calc(10px + 3vmin);
+    display:inline-block;
+}
+
+.nav-item{
+    padding-right: 4rem;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
