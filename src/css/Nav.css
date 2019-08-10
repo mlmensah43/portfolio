@@ -12,6 +12,6 @@
     color: black;
 }
 
-a:hover{
+.nav-item:hover{
     text-decoration: none;
 }

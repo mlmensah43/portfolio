@@ -1,20 +1,26 @@
 import React from 'react';
+import { BrowserRouter as Router, Link} from "react-router-dom";
 import '../css/Nav.css';
 
 
 const Nav = (props) =>{
     
     return(
-        <nav class="navbar navbar-light ">
+        <Router>
+            <nav class="navbar navbar-light ">
             <span class="navbar-brand mb-0 h1 name">Mariah Mensah</span>
+
             <div class="navbar-nav">
                 <span id="nav-pages">
-                    <a class="nav-item " href="./About">About</a>
-                    <a class="nav-item " href="./About">Project</a>
-                    <a class="nav-item " href="./About">Contact</a>
+                    <Link to="./About"  className="nav-item">About</Link>
+                    <Link to="./About"  className="nav-item">Project</Link>
+                    <Link to="./About"  className="nav-item">Contact</Link>
                 </span>
             </div>
-        </nav>
+
+            </nav>
+        </Router>
+        
     );
 }
 
