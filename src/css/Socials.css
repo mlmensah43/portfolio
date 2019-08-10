@@ -1,0 +1,13 @@
+.social-items{
+    margin-top: 0;
+    margin-left: 4%;
+    position: fixed;
+    flex-direction: column;
+}
+
+.social-item{
+    height: 30px;
+    width: 30px;
+    margin-left: 10%;
+    margin-bottom: 20%;
+}

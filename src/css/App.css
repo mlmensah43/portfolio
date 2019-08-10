@@ -6,40 +6,11 @@
     background-attachment: fixed;
 }
 
-.name{
-    font-size: 30px;
-    font-weight: 700;
-    padding-left: 2rem;
-    
-}
-
 .page-title{
-    font-size: 100px;
+    font-size: calc(50px + 3vmin);
     font-weight: 700;
-    margin-top: 5rem;
-    margin-left: 20rem;
+    margin-top: 5%;
+    margin-left: 10%;
     
 }
 
-.pic{
-    border-radius: 50%;
-    width: 391px;
-    height: 391px;
-    display: block;
-    margin-top: 5rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.pitch{
-    font-size: 30px;
-    margin-top: 7rem;
-    padding-left: 8rem;
-    text-align: center;
-}
-
-.spinner-border{
-    margin-top: 40rem;
-    height: 5rem; 
-    width: 5rem; 
-}

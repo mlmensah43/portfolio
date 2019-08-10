@@ -2,8 +2,16 @@
     margin-top: .5rem;
 }
 
+
+.name{
+    font-size: 30px;
+    font-weight: 700;
+    padding-left: 2rem;
+    
+}
+
 #nav-pages{
-    font-size: calc(10px + 3vmin);
+    font-size: calc(3px + 3vmin);
     display:inline-block;
 }
 

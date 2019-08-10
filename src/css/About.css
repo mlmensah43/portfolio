@@ -1,0 +1,16 @@
+.pic{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pitch{
+    font-size: 30px;
+    margin-top: 5%;
+    padding-left: 8rem;
+    text-align: center;
+}
