@@ -12,10 +12,10 @@ const About = () => {
     return (
         <div id="about">
             <Nav></Nav>
-            <h1 className="page-title animated slideInDown">about</h1>
-            <p className="description description-intro animated slideInUp"> Hi, my name is</p>
-            <h1 className="description-name animated slideInUp">Mariah<br/>Mensah</h1>
-            <p className="description animated slideInUp">
+            <h1 className="page-title animated slideInLeft">about</h1>
+            <p className="description description-intro animated slideInRight"> Hi, my name is</p>
+            <h1 className="description-name animated slideInRight">Mariah<br/>Mensah</h1>
+            <p className="description animated slideInRight">
                 What it do boo. I ain't gone do alot of talking, you know what it is.
                 <br/>Check out my work and hit me up if you got the big bucks.
             </p>

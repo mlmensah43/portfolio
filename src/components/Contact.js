@@ -14,25 +14,33 @@ function Contact(){
 
             <div className="flex-container contacts">
                 <div className="flex-item">
-                    <img className="contact-icon" alt="resume" src={require('../images/resume.png')}></img>
+                    <a className="contact-icon" href="https://drive.google.com/file/d/1XSbMZ-PFd2B14R7Vk4at0o7q_uQ3Hjlo/view?usp=sharing">
+                        <img className="contact-icon" alt="resume" src={require('../images/resume.png')}></img>
+                    </a>
                     <span className="label">
                         Resume`
                     </span>
                 </div>
                 <div className="flex-item">
-                    <img className="contact-icon" alt="linkedin" src={require('../images/linkedin.png')}></img>
+                    <a className="contact-icon" href="https://linkedin.com">
+                        <img className="contact-icon" alt="linkedin" src={require('../images/linkedin.png')}></img>
+                    </a>
                     <span className="label">
                         LinkedIn
                     </span>
                 </div>
                 <div className="flex-item">
-                    <img className="contact-icon" alt="github" src={require('../images/github.png')}></img>
+                    <a className="contact-icon" href="https://github.com/mlmensah43">
+                        <img className="contact-icon" alt="github" src={require('../images/github.png')}></img>
+                    </a>
                     <span className="label">
                         GitHub
                     </span>
                 </div>
                 <div className="flex-item">
-                    <img className="contact-icon" alt="dribbble" src={require('../images/dribbble.png')}></img>
+                    <a className="contact-icon" href="https://dribbble.com/mariahlm">
+                        <img className="contact-icon" alt="dribbble" src={require('../images/dribbble.png')}></img>
+                    </a>
                     <span className="label">
                         Dribbble
                     </span>
