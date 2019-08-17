@@ -1,0 +1,33 @@
+.flex-container{
+    align-content: space-around;
+}
+
+.flex-item{
+    margin: 5%;
+    margin-bottom: 0%;
+    margin-left: 10%;
+}
+
+.contacts{
+    margin-left: 20%;
+}
+
+.contact-icon{
+    height: 75px;
+    width: 75px;
+}
+
+.back-to-top{
+    font-size: calc(10px + 3vmin);
+    text-align: center;
+    margin: 10%;
+}
+
+.label{
+    color: white;
+    visibility: hidden;
+}
+
+.contact-icon:hover + .label{
+  visibility: visible;
+}

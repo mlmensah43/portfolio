@@ -1,11 +1,31 @@
-.here{
-    margin-left: 10%;
-}
-
-.d-block{
-    margin: 2%;
-}
-
 .flex-container{
     display: flex;
+    flex-direction: row;
+    
 }
+
+.heading{
+    margin-top: 10%;
+}
+
+.sub-heading{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.projects{
+    margin: 10%;
+}
+
+.project-title{
+    font-weight: 700;
+    font-size: calc(20px + 2vmin);
+}
+
+.project-description{
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    margin-top: 10%;
+    margin-left: 15%
+}
+

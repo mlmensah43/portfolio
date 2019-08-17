@@ -8,9 +8,18 @@
     margin-right: auto;
 }
 
-.pitch{
+.description{
     font-size: 30px;
-    margin-top: 5%;
-    padding-left: 8rem;
-    text-align: center;
+    margin-left: 55%;
+    text-align: left;
+}
+
+.description-intro{
+    margin-top: 10%;
+}
+
+.description-name{
+    font-size: calc(25px + 3vmin);
+    font-weight: 700;
+    margin-left: 55%;
 }
