@@ -7,7 +7,7 @@ function Project(){
     return (
         <div>
             {/* <Nav></Nav> */}
-            <h1 className="heading page-title animated slideInDown">projects</h1>
+            <h1 id="project" className="heading page-title animated slideInDown">projects</h1>
             <h3 className="sub-heading">Click on the image for the source code</h3>
 
             <div className="flex-container">

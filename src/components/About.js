@@ -10,7 +10,7 @@ import '../css/About.css'
 const About = () => {
 
     return (
-        <div>
+        <div id="about">
             <Nav></Nav>
             <h1 className="page-title animated slideInDown">about</h1>
             <p className="description description-intro animated slideInUp"> Hi, my name is</p>

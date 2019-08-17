@@ -21,13 +21,19 @@
     font-size: calc(10px + 3vmin);
     text-align: center;
     margin: 10%;
+    color: white;
+}
+
+.back-to-top:hover{
+    text-decoration: none;
 }
 
 .label{
+    font-size: calc(2.5px + 3vmin);
     color: white;
     visibility: hidden;
 }
 
-.contact-icon:hover + .label{
+.contact-icon:hover ~ .label{
   visibility: visible;
 }
