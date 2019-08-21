@@ -24,3 +24,15 @@
 .nav-item:hover{
     text-decoration: none;
 }
+
+@media screen and (max-width: 1060px) {
+    .nav-item{
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-item{
+        padding-right: 1rem;
+    }
+  }

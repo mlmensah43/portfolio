@@ -1,4 +1,6 @@
-.flex-container{
+.flex-container-contact{
+    display: flex;
+    flex-direction: row;
     align-content: space-around;
 }
 
@@ -9,7 +11,7 @@
 }
 
 .contacts{
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .contact-icon{
@@ -36,4 +38,19 @@
 
 .contact-icon:hover ~ .label{
   visibility: visible;
+}
+
+@media screen and (max-width: 800px) {
+    .flex-container-contact{
+        flex-direction: row;
+ }
+    .heading{
+        margin-top: 20%;
+    }
+    .contacts {
+       margin-left: 0%;
+    }
+    .flex-item{
+        margin-left: 5%;
+    }
 }

@@ -1,9 +1,3 @@
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    
-}
-
 .heading{
     margin-top: 10%;
 }
@@ -15,6 +9,8 @@
 
 .projects{
     margin: 10%;
+    height: calc(550px + 2vmin);
+    width: calc(735px + 2vmin);
 }
 
 .project-title{
@@ -23,9 +19,26 @@
 }
 
 .project-description{
-    justify-content: flex-start;
     font-size: calc(10px + 2vmin);
     margin-top: 10%;
-    margin-left: 15%
+    margin-left: 20%;
+}
+
+@media screen and (max-width: 800px) {
+
+    .flex-container{
+           flex-direction: column;
+    }
+
+    .projects{
+        margin-left: 0%;
+        width: 100vw;
+    }
+
+    .project-description {
+       margin-left: 5%;
+       margin-top: 2%;
+       text-align: center;
+    }
 }
 

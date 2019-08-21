@@ -12,7 +12,7 @@ function Contact(){
                 <h3 className="sub-heading">Please feel free to contact me!</h3>
             </div>
 
-            <div className="flex-container contacts">
+            <div className="flex-container-contact contacts">
                 <div className="flex-item">
                     <a className="contact-icon" href="https://drive.google.com/file/d/1XSbMZ-PFd2B14R7Vk4at0o7q_uQ3Hjlo/view?usp=sharing">
                         <img className="contact-icon" alt="resume" src={require('../images/resume.png')}></img>

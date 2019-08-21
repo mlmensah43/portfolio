@@ -4,11 +4,28 @@
     color: white;
 }
 
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
 .page-title{
     font-size: calc(50px + 3vmin);
     font-weight: 700;
     margin-top: 5%;
     margin-left: 5%;
     
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
 }
 

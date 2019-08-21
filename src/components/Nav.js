@@ -5,10 +5,10 @@ import '../css/Nav.css';
 const Nav = (props) =>{
     
     return(
-            <nav class="navbar navbar-light ">
-            <span id="top" class="h1 name">Web Developer</span>
+            <nav className="navbar navbar-light ">
+            <span id="top" className="h1 name">Web Developer</span>
 
-            <div class="navbar-nav">
+            <div className="navbar-nav">
                 <span id="nav-pages">
                     <a href="#about" className="nav-item">about</a>
                     <a href="#project" className="nav-item">projects</a>
