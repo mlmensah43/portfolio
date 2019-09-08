@@ -1,21 +1,89 @@
 .body{
+    background: url('../images/background.jpg');
+    /* background: black; */
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
     font-family: 'Lato';
-    background: black;
     color: white;
+    
 }
 
-.flex-container{
+.page{
+    height: 100vh;
+    width: 100vw;
+}
+
+.flex-container-row{
     display: flex;
     flex-direction: row;
-    
+}
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.page-name{
+    align-items: center;
+    width: 3vw;
+    margin-top: 35vh;
+    position: fixed;
+    left: 1%;
 }
 
 .page-title{
-    font-size: calc(50px + 3vmin);
-    font-weight: 700;
-    margin-top: 5%;
-    margin-left: 5%;
+    color: #A57D7D;
+    font-size: 2rem;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    margin: 5vh;
     
+}
+
+.page-title-2{
+    color: #A57D7D;
+    font-size: 2rem;
+    text-align: center;
+    visibility: hidden;
+}
+
+.progress{
+    margin-top: 35vh;
+    position: fixed;
+    left: 95%;
+}
+
+.dash-50{
+    border-left: 1.5px solid rgba(255, 255, 255, 0.5);
+    height: 4vh;
+    margin: 3vh;
+}
+
+.dash-100{
+    border-left: 1.5px solid rgb(255, 255, 255);
+    height: 4vh;
+    margin: 3vh;
+}
+
+.dash-0{
+    border-left: 1.5px solid rgba(255, 255, 255, 0);
+    height: 4vh;
+    margin: 3vh;
+}
+
+.name{
+    color: #A57D7D;
+    font-size: calc(2.5rem + 2.5vmin);
+    font-weight: 500;
+}
+
+.job-title{
+    color: #A57D7D;
+    font-size: 2rem;
+}
+
+.sentence{
+    font-size: 1.3rem;
 }
 
 html {
@@ -29,3 +97,26 @@ html {
 	}
 }
 
+@media screen and (max-width: 800px) {
+    .page-title{
+        visibility: hidden;
+    }
+
+    .page-title-2{
+        padding-top: 5%;
+        visibility: visible;
+    }
+    .dash-100{
+        visibility: hidden;
+    }
+
+    .dash-50{
+        visibility: hidden;
+    }
+
+    .sentence{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+}

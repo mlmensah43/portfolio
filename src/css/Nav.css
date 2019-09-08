@@ -1,31 +1,11 @@
-.navbar{
-    margin-top: .5rem;
+.nav{
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 5vh 0 0 0;
 }
 
 
-.name{
-    font-size: 30px;
-    font-weight: 700;
-    padding-left: 2rem;
-    color: white;
-    
-}
-
-#nav-pages{
-    font-size: calc(3px + 3vmin);
-    display:inline-block;
-}
-
-.nav-item{
-    padding-right: 4rem;
-    color: white;
-}
-
-.nav-item:hover{
-    text-decoration: none;
-}
-
-@media screen and (max-width: 1060px) {
+/* @media screen and (max-width: 1060px) {
     .nav-item{
         padding-right: 2rem;
     }
@@ -35,4 +15,4 @@
     .nav-item{
         padding-right: 1rem;
     }
-  }
+  }  */

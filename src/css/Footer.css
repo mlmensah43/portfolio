@@ -1,0 +1,16 @@
+.footer{
+    margin: 7% 0 1% 0;
+    justify-content: center;
+}
+
+.contact-icon{
+    margin: 0 2.5vw 0 1vw;
+    width: 2.5vw;
+    opacity: .8;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-icon{
+        width: 5vw;
+    }
+}

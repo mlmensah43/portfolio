@@ -1,4 +1,17 @@
-.pic{
+.about-content{
+    align-items: center;
+    margin: 22% 0 0 0;
+}
+
+.about-sentences{
+    margin: 0 0 3% 0;
+}
+
+.about-spiel{
+    width: 60vw;
+}
+
+/* .pic{
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -9,8 +22,9 @@
 }
 
 .description{
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 50vw;
+    margin-right: 2vw;
     text-align: left;
 }
 
@@ -45,4 +59,4 @@
     }
 
 }
-
+ */

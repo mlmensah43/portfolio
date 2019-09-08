@@ -1,4 +1,21 @@
-.flex-container-contact{
+.contact-content{
+    align-items: center;
+    margin: 22% 0 0 0;
+}
+
+.back-to-top{
+    font-size: calc(4px + 2vmin);
+    text-decoration: none;
+    text-align: center;
+    margin: 15% 0 0 0;
+    color: white;
+}
+
+.back-to-top:hover{
+    text-decoration: none;
+}
+
+/* .flex-container-contact{
     display: flex;
     flex-direction: row;
     align-content: space-around;
@@ -15,8 +32,8 @@
 }
 
 .contact-icon{
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
 }
 
 .back-to-top{
@@ -53,4 +70,4 @@
     .flex-item{
         margin-left: 5%;
     }
-}
+} */
