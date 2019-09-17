@@ -17,18 +17,23 @@ class Projects extends React.Component{
         this.props.title("PROJECTS");
     }
 
+    // onExitViewport = () =>{
+    //     this.props.title(" ");
+    // }
+
 
 
     render(){
     return (
-        <ScrollTrigger className="page-2" onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
+        <ScrollTrigger className="page-2" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
 
             <div className="page-title-2">PROJECTS</div>
                 <div className="projects-center">
                     <Project 
                         title="Boxed Water" 
-                        image={require('../images/donut.png')} 
+                        image={require('../images/water.png')} 
                         description={boxed_water}
+                        link="https://mlmensah43.github.io/boxed_water/#/"
                         >
                     </Project>
 
@@ -36,6 +41,7 @@ class Projects extends React.Component{
                         title="Simple Calculator" 
                         image={require('../images/calc.png')} 
                         description={calculator}
+                        link="https://mlmensah43.github.io/simple_calculator/#/"
                         >
                     </Project>
 

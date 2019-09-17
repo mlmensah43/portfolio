@@ -1,6 +1,6 @@
 .body{
-    background: url('../images/background.jpg');
-    /* background: black; */
+    /* background: url('../images/background.jpg'); */
+    background: black;
     background-attachment: fixed;
     background-repeat: no-repeat; 
     font-family: 'Lato';

@@ -20,11 +20,11 @@ class Contact extends React.Component{
 
     render(){
     return (
-        <ScrollTrigger className="page" onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
+        <ScrollTrigger className="page" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
 
             <div className="page-title-2">CONTACT</div>
             <div className="flex-container-column contact-content">
-                <p className="sentence">mariahmensah@gmail.com</p>
+                <p className="sentence">mariahmensah01@gmail.com</p>
                 <p className="sentence">Please feel free to contact me.</p>
             </div>
 

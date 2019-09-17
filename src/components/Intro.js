@@ -22,7 +22,7 @@ class Intro extends React.Component {
 
     render(){
         return (
-            <ScrollTrigger className="page" onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
+            <ScrollTrigger id="top" className="page" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
     
                     <div className="page-title-2">INTRO</div>
                     <div className="flex-container-column intro-content">
