@@ -15,7 +15,7 @@ function Project(props){
                     <p className="project-title">{props.title}</p>
                     
                     <p>{props.description}</p>
-                    <a className="link" href={props.link}>Visit the Site →</a>
+                    <a className="link" href={props.link}>{props.press}</a>
                 </div>
                 
             </div>

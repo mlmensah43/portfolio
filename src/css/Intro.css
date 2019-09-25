@@ -4,16 +4,38 @@
 }
 
 .intro-item{
-    margin: 0 0 3% 0;
+    margin: 0 0 5% 0;
+    
+}
+
+.name{
+    /* color: #A57D7D; */
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    font-size: calc(2rem + 2.5vmin);
+    font-weight: 300;
+}
+
+.job-title{
+    /* color: #A57D7D; */
+    font-weight: 200;
+    font-size: calc(1rem + 2.5vmin);
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 800px) {
+    .page-name-background{
+        visibility: hidden;
+    }
 
     .intro-content{
-        margin: 40% 0 0 0;
+        margin: 30% 0 0 0;
     }
 
     .intro-item{
         margin: 0 0 5% 0;
+    }
+
+    .intro-visible{
+        visibility: hidden;
     }
 }

@@ -8,55 +8,17 @@
 }
 
 .about-spiel{
-    width: 60vw;
+    width: 55vw;
 }
 
-/* .pic{
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.description{
-    font-size: 25px;
-    margin-left: 50vw;
-    margin-right: 2vw;
-    text-align: left;
-}
-
-.description-intro{
-    margin-top: 10%;
-}
-
-.description-name{
-    font-size: calc(25px + 3vmin);
-    font-weight: 700;
-    margin-left: 50vw;
+.college{
+    text-align: center;
 }
 
 @media screen and (max-width: 800px) {
 
-    .projects{
-        margin-left: 0%;
-        width: 100vw;
-    }
 
-    .description{
-        font-size: calc(10px + 2vmin);
-        margin: 0 10%;
+    .about-spiel{
+        width: 85vw;
     }
-    .description-intro{
-        text-align: center;
-        margin-left: 10%;
-    }
-    .description-name{
-        text-align: center;
-        margin-left: 0;
-    }
-
 }
- */

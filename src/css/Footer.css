@@ -1,11 +1,12 @@
 .footer{
-    margin: 7% 0 1% 0;
+    margin: 60% 0 0 0;
     justify-content: center;
+    align-items: center;
 }
 
 .contact-icon{
-    margin: 0 2.5vw 0 1vw;
-    width: 2.5vw;
+    margin: 0 2.5vw 0 .5vw;
+    width: 2vw;
     opacity: .8;
 }
 

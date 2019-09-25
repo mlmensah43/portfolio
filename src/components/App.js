@@ -1,10 +1,10 @@
 import React from 'react';
 import '../css/App.css';
-// import Home from './Home';
 import Intro from './Intro'
 import About from './About'
 import Projects from './Projects'
 import Contact from './Contact'
+import Footer from './Footer'
 
 class App extends React.Component {
 
@@ -13,7 +13,7 @@ class App extends React.Component {
 
   }
 
-  name = (word, num) =>{
+  name = (word) =>{
     this.setState({page: word});
   };
 
@@ -56,30 +56,54 @@ class App extends React.Component {
 
   }
 
-  smallDashes = () =>{
+  pageTitle = () =>{
     if(this.state.page === "INTRO"){
       return(
-        <div className="flex-container-column page-name">
-            <div className="dash-0"></div>
-            <div className="page-title">{this.state.page}</div>
-            <div className="dash-50"></div>
-        </div>);}
+        <div className="page-name-background">
+          <div className="page-title-intro page-title"> <a href="#intro" className="page-100">INTRO</a></div>
+          <div className="page-title"><a href="#about" className="page-50">ABOUT</a></div>
+          <div className="page-title"><a href="#projects" className="page-50">PROJECTS</a></div>
+          <div className="page-title"><a href="#contact" className="page-50">CONTACT</a></div>
+          <Footer></Footer>  
+        </div>
+      );
+    }
+
+    else if(this.state.page === "ABOUT"){
+      return(
+        <div className="page-name-background">
+          <div className="page-title-intro page-title"> <a href="#intro" className="page-50">INTRO</a></div>
+          <div className="page-title"><a href="#about" className=" page-100">ABOUT</a></div>
+          <div className="page-title"><a href="#projects" className="page-50">PROJECTS</a></div>
+          <div className="page-title"><a href="#contact" className="page-50">CONTACT</a></div>
+          <Footer></Footer>   
+        </div>
+      );
+    }
+
+    else if(this.state.page === "PROJECTS"){
+      return(
+        <div className="page-name-background">
+          <div className="page-title-intro page-title"> <a href="#intro" className="page-50">INTRO</a></div>
+          <div className="page-title"><a href="#about" className="page-50">ABOUT</a></div>
+          <div className="page-title"><a href="#projects" className="page-100">PROJECTS</a></div>
+          <div className="page-title"><a href="#contact" className="page-50">CONTACT</a></div>
+          <Footer></Footer> 
+        </div>
+      );
+    }
 
     else if(this.state.page === "CONTACT"){
       return(
-      <div className="flex-container-column page-name">
-          <div className="dash-50"></div>
-          <div className="page-title">{this.state.page}</div>
-          <div className="dash-0"></div>
-      </div>);}
-
-     else{
-      return(
-      <div className="flex-container-column page-name">
-          <div className="dash-50"></div>
-          <div className="page-title">{this.state.page}</div>
-          <div className="dash-50"></div>
-      </div>);} 
+        <div className="page-name-background">
+          <div className="page-title-intro page-title"> <a href="#intro" className="page-50">INTRO</a></div>
+          <div className="page-title"><a href="#about" className="page-50">ABOUT</a></div>
+          <div className="page-title"><a href="#projects" className="page-50">PROJECTS</a></div>
+          <div className="page-title"><a href="#contact" className="page-100">CONTACT</a></div>
+          <Footer></Footer>
+        </div>
+      );
+    } 
   }
   
 
@@ -88,7 +112,7 @@ class App extends React.Component {
         <div className="flex-container-row">
             
 
-            {this.smallDashes()}
+            {this.pageTitle()}
 
             <div className="flex-container-column">
                 <Intro title={this.name}></Intro>
