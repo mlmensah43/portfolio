@@ -2,6 +2,16 @@ import React from 'react';
 import '../css/App.css'
 import '../css/Projects.css'
 
+function button1(word, name){
+    if(word !== ""){
+        return(
+            <div>
+                <button className="button"><a className="link" href={word}>{name}</a></button>
+            </div>
+        );
+    }
+}
+
 function Project(props){
 
     return (
@@ -15,7 +25,9 @@ function Project(props){
                     <p className="project-title">{props.title}</p>
                     
                     <p>{props.description}</p>
-                    <a className="link" href={props.link}>{props.press}</a>
+                    {button1(props.link1,props.press1)}
+                    <button className="button"><a className="link" href={props.link2}>{props.press2}</a></button>
+                    
                 </div>
                 
             </div>

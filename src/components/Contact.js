@@ -1,5 +1,6 @@
 import React from 'react';
 import ScrollTrigger from 'react-scroll-trigger';
+import Footer from './Footer'
 import '../css/App.css'
 import '../css/Contact.css'
 
@@ -25,6 +26,10 @@ class Contact extends React.Component{
             <div className="flex-container-column contact-content">
                 <p className="sentence">mariahmensah01@gmail.com</p>
                 <p className="sentence">Please feel free to contact me.</p>
+                <div className="page-title-2">
+                    <Footer></Footer>
+                </div>
+                
             </div>
 
             <div className="back-to-top"><a href="#top" className="back-to-top">Back to Top</a></div>

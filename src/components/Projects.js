@@ -29,8 +29,10 @@ class Projects extends React.Component{
                         title="Boxed Water" 
                         image={require('../images/water.png')} 
                         description={boxed_water}
-                        press={"Visit the Site →"}
-                        link="https://mlmensah43.github.io/boxed_water/#/"
+                        press1={"Visit the Site →"}
+                        link1="https://mlmensah43.github.io/boxed_water/#/"
+                        press2={"Source Code →"}
+                        link2="https://github.com/mlmensah43/boxed_water"
                         >
                     </Project>
 
@@ -38,8 +40,10 @@ class Projects extends React.Component{
                         title="Simple Calculator" 
                         image={require('../images/calc.png')} 
                         description={calculator}
-                        press={"Visit the Site →"}
-                        link="https://mlmensah43.github.io/simple_calculator/#/"
+                        press1={"Visit the Site →"}
+                        link1="https://mlmensah43.github.io/simple_calculator/#/"
+                        press2={"Source Code →"}
+                        link2="https://github.com/mlmensah43/simple_calculator"
                         >
                     </Project>
 
@@ -47,16 +51,21 @@ class Projects extends React.Component{
                         title="Gallery" 
                         image={require('../images/gallery.png')} 
                         description={gallery}
-                        press={"Visit the Site →"} 
-                        link="https://mlmensah43.github.io/gallery/#/" >
+                        press1={"Visit the Site →"}
+                        link1="https://mlmensah43.github.io/gallery/#/"
+                        press2={"Source Code →"}
+                        link2="https://github.com/mlmensah43/gallery"
+                        >
                     </Project>
 
                     <Project 
                         title="Mimir" 
                         image={require('../images/mimir.png')} 
                         description={mimir}
-                        press={"View Source Code →"}  
-                        link="https://github.com/ORNL-AMO/Mimir">
+                        link1=""
+                        press2={"Source Code →"}
+                        link2="https://github.com/ORNL-AMO/Mimir"
+                        >
                     </Project>
             </div>
         </ScrollTrigger>

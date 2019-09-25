@@ -22,10 +22,13 @@ class Intro extends React.Component {
                 <div className="flex-container-column intro-content">
                     <div className="name intro-item">MARIAH MENSAH</div>
                     <div className="job-title intro-item">WEB DEVELOPER</div>
-                    <p className="intro-item sentence">
-                        Welcome to my portfolio! Below you will find some of the projects that I have worked < br/>
-                        on and various points of contact. Thank you and hope to hear from you soon! 
-                    </p>
+                    <div className="intro-sent">
+                        <p className="intro-item sentence">
+                            Welcome to my portfolio! Below you will find some of the projects that I have worked
+                            on and various points of contact. Thank you and hope to hear from you soon! 
+                        </p>
+                    </div>
+                    
                 </div>
             </ScrollTrigger>
         );
