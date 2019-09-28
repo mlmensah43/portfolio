@@ -17,9 +17,10 @@ function Project(props){
     return (
         <div>
             <div className="flex-container-row project-row">
-                <div>
-                    <img className="projects" alt="project" src={props.image}></img>
-                </div>
+
+                    <img className="project-image" alt="project" src={props.image}></img>
+    
+                
                 
                 <div className="project-description">
                     <p className="project-title">{props.title}</p>
