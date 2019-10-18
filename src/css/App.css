@@ -35,6 +35,12 @@
     position: fixed;
 }
 
+.profile{
+    padding: 15% 0 0 0;
+    border-radius: 50%;
+    width: 200px;
+}
+
 .page-title-intro{
     padding: 80% 0 0 0;
 }
@@ -85,6 +91,7 @@
     font-weight: 300;
 }
 
+
 html {
 	scroll-behavior: smooth;
 }
@@ -96,7 +103,7 @@ html {
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
     .page-title{
         visibility: hidden;
     }

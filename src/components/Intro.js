@@ -24,8 +24,8 @@ class Intro extends React.Component {
                     <div className="job-title intro-item">WEB DEVELOPER</div>
                     <div className="intro-sent">
                         <p className="intro-item sentence">
-                            Welcome to my portfolio! Below you will find some of the projects that I have worked
-                            on and various points of contact. Thank you and hope to hear from you soon! 
+                            Welcome to my portfolio! You will find some of the projects that I have worked
+                            on and links to my GitHub, LinkedIn, and Behance for some of my prototypes. Thank you and hope to hear from you soon! 
                         </p>
                     </div>
                     

@@ -1,5 +1,5 @@
 .projects-center{
-    margin-left: 25vw;
+    margin-left: 15vw;
     align-items: center;
     text-align: left;
     /* margin: 0 10vw 10vw 10vw; */
@@ -7,12 +7,18 @@
 
 .project-image{
     margin: 20% 5% 0 0;
-    max-width: 60%;
+    width: 75vmin;
+    height: 50vmin;
+}
+
+.project-title{
+    font-size: 1.5rem;
 }
 
 .project-description{
     margin: 20% 0 0 0;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
+    width: 20vw;
 }
 
 .link{
@@ -34,8 +40,11 @@
     margin: 3%;
   }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
 
+    .project-description{
+        width: 90vw;
+    }
 
     .projects-center{
         align-items: unset;

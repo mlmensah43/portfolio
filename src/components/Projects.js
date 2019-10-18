@@ -4,10 +4,10 @@ import ScrollTrigger from 'react-scroll-trigger';
 import '../css/App.css';
 import '../css/Projects.css';
 
-let boxed_water = "This is my third project";
-let calculator = "This is my second project";
-let gallery = "This is my first project";
-let mimir = "Senior capstone project";
+let boxed_water = "Boxed water is a e-commerce webpage I redesigned of the Boxed Water is Better brand of water";
+let calculator = "This is a javascript calculator that is capable of doing simple calculations.";
+let gallery = "Gallery is simplistic image gallery.";
+let mimir = "Mimir is my senior capstone project for Oak Ridge National Labratory. I designed and prototyped the entire front end of the project and implemented most of the front end. That includes the background navbar and sidebar, the welcome page and the dashboard. ";
 
 class Projects extends React.Component{
 

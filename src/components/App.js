@@ -60,6 +60,7 @@ class App extends React.Component {
     if(this.state.page === "INTRO"){
       return(
         <div className="page-name-background">
+          {/* <img className="profile" alt="profile" src={require('../images/profile_image.png')}></img> */}
           <div className="page-title-intro page-title"> <a href="#intro" className="page-100">INTRO</a></div>
           <div className="page-title"><a href="#about" className="page-50">ABOUT</a></div>
           <div className="page-title"><a href="#projects" className="page-50">PROJECTS</a></div>
@@ -72,6 +73,7 @@ class App extends React.Component {
     else if(this.state.page === "ABOUT"){
       return(
         <div className="page-name-background">
+          {/* <img className="profile" alt="profile" src={require('../images/profile_image.png')}></img> */}
           <div className="page-title-intro page-title"> <a href="#intro" className="page-50">INTRO</a></div>
           <div className="page-title"><a href="#about" className=" page-100">ABOUT</a></div>
           <div className="page-title"><a href="#projects" className="page-50">PROJECTS</a></div>
