@@ -4,49 +4,51 @@
 
 .intro-content{
     align-items: center;
-    margin: 18% 0 0 0;
+    margin: 40vh 0 0 0;
 }
 
 .intro-item{
     margin: 0 0 5% 0;
-    
 }
 
 .name{
-    /* color: #A57D7D; */
-    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
-    font-size: calc(2rem + 2.5vmin);
-    font-weight: 300;
+    /* text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); */
+    font-size: 6vmin;
+    letter-spacing: 30px;
+    font-weight: 500;
+    opacity: .6;
 }
 
 .job-title{
-    /* color: #A57D7D; */
-    font-weight: 200;
-    font-size: calc(1rem + 2.5vmin);
-    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    /* text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2); */
+    font-size: 3vmin;
+    word-spacing: 40px;
+    font-weight: 500;
+    opacity: .9;
 }
 
-.intro-sent{
-    width: 40vw;
-}
 
 @media screen and (max-width: 1050px) {
-    .intro-sent{
-        width: 80vw;
-    }
-    .page-name-background{
-        visibility: hidden;
-    }
-
-    .intro-content{
-        margin: 30% 0 0 0;
-    }
 
     .intro-item{
         margin: 0 0 5% 0;
     }
 
-    .intro-visible{
-        visibility: hidden;
+    .name{
+        letter-spacing: 15px;
+    }
+
+    .job-title{
+        word-spacing: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .name{
+        letter-spacing: 10px;
+    }
+
+    .job-title{
+        word-spacing: 15px;
     }
 }

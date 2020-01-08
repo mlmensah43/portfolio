@@ -15,7 +15,6 @@ class About extends React.Component{
     return (
         <ScrollTrigger id="about" className="page" throttleScroll={0} onEnter={this.onEnterViewport}>
 
-                <div className="page-title-2">ABOUT</div>
                 <div className="flex-container-column about-content">
                         <p className="about-sentences sentence college">
                             BS Computer Science<br/> Tennessee Technological University
@@ -26,7 +25,8 @@ class About extends React.Component{
                             end development and design work. I am dedicated to finding an opportunity to learn and grow my skill set 
                             through being a valuable asset to a prospective company and development team. 
                         </p>
-                </div>    
+                </div>   
+                 
         </ScrollTrigger>
     );}
 

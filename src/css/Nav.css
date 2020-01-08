@@ -1,18 +1,29 @@
 .nav{
-    justify-content: center;
-    justify-content: space-evenly;
-    margin: 5vh 0 0 0;
+    /* background: rgba(0, 0, 0, 0.1); */
+    width: 100vw;
+    position: fixed;
 }
 
-
-/* @media screen and (max-width: 1060px) {
-    .nav-item{
-        padding-right: 2rem;
-    }
+.logo{
+    margin: 1vh auto;
+    align-items: center;
+    /* position: fixed; */
+    
 }
 
-@media screen and (max-width: 800px) {
-    .nav-item{
-        padding-right: 1rem;
-    }
-  }  */
+.logo-image{
+    height: 10vmin;
+    width: 10vmin;
+}
+
+.nav-links{
+    /* justify-content: flex-end; */
+    list-style: none;
+    font-size: 3vmin;
+
+}
+
+.nav-link{
+    display: inline-block;
+    margin: 0 5vmin;
+}

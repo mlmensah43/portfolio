@@ -26,8 +26,13 @@ function Project(props){
                     <p className="project-title">{props.title}</p>
                     
                     <p>{props.description}</p>
-                    {button1(props.link1,props.press1)}
-                    <button className="button"><a className="link" href={props.link2}>{props.press2}</a></button>
+
+                    <div className="flex-container-row button-row">
+                        {button1(props.link1,props.press1)}
+                        <button className="button"><a className="link" href={props.link2}>{props.press2}</a></button>
+                    </div>
+                    
+                    
                     
                 </div>
                 

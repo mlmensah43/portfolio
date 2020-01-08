@@ -3,6 +3,7 @@ import ScrollTrigger from 'react-scroll-trigger';
 import 'animate.css';
 import '../css/App.css'
 import '../css/Intro.css'
+import Footer from './Footer';
 
 
 
@@ -21,15 +22,13 @@ class Intro extends React.Component {
                 {/* <div className="page-title-2 intro-visible">INTRO</div> */}
                 <div className="flex-container-column intro-content">
                     <div className="name intro-item">MARIAH MENSAH</div>
-                    <div className="job-title intro-item">WEB DEVELOPER</div>
-                    <div className="intro-sent">
-                        <p className="intro-item sentence">
-                            Welcome to my portfolio! You will find some of the projects that I have worked
-                            on and links to my GitHub, LinkedIn, and Behance for some of my prototypes. Thank you and hope to hear from you soon! 
-                        </p>
-                    </div>
-                    
+                    <div className="job-title intro-item">WEB-DEVELOPER  + DESIGNER</div>        
                 </div>
+
+                <div >
+                    <Footer direction="horizontal"></Footer>
+                </div>
+                
             </ScrollTrigger>
         );
     };

@@ -22,17 +22,17 @@ class Contact extends React.Component{
     return (
         <ScrollTrigger id="contact" className="page" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
 
-            <div className="page-title-2">CONTACT</div>
+            {/* <div className="page-title-2">CONTACT</div> */}
             <div className="flex-container-column contact-content">
-                <p className="sentence">mariahmensah01@gmail.com</p>
-                <p className="sentence">Please feel free to contact me.</p>
-                <div className="page-title-2">
-                    <Footer></Footer>
-                </div>
-                
+                <p className="sentence email">mariahmensah01@gmail.com</p>
+                <p className="sentence">Please feel free to contact me and don't forget to check out <br/> my GitHub and Behance for some of my design work.</p> 
             </div>
 
-            <div className="back-to-top"><a href="#top" className="back-to-top">Back to Top</a></div>
+            <div >
+                <Footer direction="horizontal"></Footer>
+            </div>
+
+            <div className="back-to"><a href="#top" className="back-to-top">Back to Top</a></div>
         </ScrollTrigger>
         
     );}
