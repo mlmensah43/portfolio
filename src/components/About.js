@@ -20,10 +20,8 @@ class About extends React.Component{
                             BS Computer Science<br/> Tennessee Technological University
                         </p>
                         <p className="about-spiel about-sentences sentence">
-                            I recently graduated from Tennessee Tech Univeristy. During my time there I discovered the magic of
-                            what the world of technology has to offer. I have developed an intense love for front 
-                            end development and design work. I am dedicated to finding an opportunity to learn and grow my skill set 
-                            through being a valuable asset to a prospective company and development team. 
+                        I graduated last year from Tennessee Tech University with a bachelors in Computer Science. For the past four months I interned with Achieve Internet. I was to be hired on full time but due to the pandemic they had to reduce their workforce. Since then I have been… and am actively searching for a full time web development position. Below are some of my most recent projects.
+ 
                         </p>
                 </div>   
                  
