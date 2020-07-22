@@ -1,8 +1,8 @@
 import React from 'react';
 import ScrollTrigger from 'react-scroll-trigger';
 import Footer from './Footer'
-import '../css/App.css'
-import '../css/Contact.css'
+import '../css/base.scss'
+import '../css/contact.scss'
 
 
 
@@ -23,13 +23,9 @@ class Contact extends React.Component{
         <ScrollTrigger id="contact" className="page" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
 
             {/* <div className="page-title-2">CONTACT</div> */}
-            <div className="flex-container-column contact-content">
-                <p className="sentence email">mariahmensah01@gmail.com</p>
-                <p className="sentence">Please feel free to contact me and don't forget to check out <br/> my GitHub and Behance for some of my design work.</p> 
-            </div>
-
-            <div >
-                <Footer direction="horizontal"></Footer>
+            <div className="flex-container-column body-text">
+                <p>mariahmensah01@gmail.com</p>
+                <p>Please feel free to contact me and don't forget to check out <br/> my GitHub and Behance for some of my design work.</p> 
             </div>
 
             <div className="back-to"><a href="#top" className="back-to-top">Back to Top</a></div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/App.css'
+import '../css/base.scss'
 import '../css/Projects.css'
 
 function button1(word, name){

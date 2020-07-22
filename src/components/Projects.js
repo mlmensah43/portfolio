@@ -1,7 +1,7 @@
 import React from 'react';
 import Project from './Project';
 import ScrollTrigger from 'react-scroll-trigger';
-import '../css/App.css';
+import '../css/base.scss';
 import '../css/Projects.css';
 
 let boxed_water = "Boxed water is a e-commerce webpage I redesigned of the 'Boxed Water is Better' brand of water. (This is not for the official site and is simply for my portfolio.)";

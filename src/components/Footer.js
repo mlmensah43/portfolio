@@ -1,6 +1,6 @@
 import React from 'react';
 import 'animate.css';
-import '../css/App.css'
+import '../css/base.scss'
 import '../css/Footer.css'
 
 function horizontal (direction) {

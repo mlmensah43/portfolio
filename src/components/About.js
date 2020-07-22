@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollTrigger from 'react-scroll-trigger';
 import 'animate.css';
-import '../css/App.css'
+import '../css/base.scss'
 import '../css/About.css'
 
 

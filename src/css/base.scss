@@ -1,9 +1,9 @@
-.body{
+@import '../css/variables.scss';
 
-    /* top, transparent red */ 
-    background: #5D4157;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.body{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     /* bottom, image 
      url('../images/background_5.jpeg'); */
@@ -11,11 +11,24 @@
     background-attachment: fixed;
     background-repeat: no-repeat; 
     background-size: cover;
-    font-family: 'Roboto';
-    font-weight: 300;
-    color: white;
+    font-family: $font;
+    color: $primary-color;
     margin: 0;
     
+}
+
+.header{
+    font-size: $header-size;
+    text-transform: uppercase;
+}
+
+.subheader{
+    font-size: $subheader-size;
+    text-transform: uppercase;
+}
+
+.body-text{
+    font-size: $body-size;
 }
 
 .flex-container-row{
@@ -41,22 +54,16 @@
 }
 
 .dash-50{
-    border-left: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-left: 1.5px solid rgba(0, 0, 0, 0.4);
     height: 4vh;
     margin: 3vh 3vh 3vh 0;
 }
 
 .dash-100{
-    border-left: 1.5px solid rgb(255, 255, 255);
+    border-left: 1.5px solid rgb(0, 0, 0);
     height: 4vh;
     margin: 3vh 3vh 3vh 0;
 }
-
-.sentence{
-    font-size: 3vmin;
-    font-weight: 300;
-}
-
 
 html {
 	scroll-behavior: smooth;
@@ -69,7 +76,7 @@ html {
 	}
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: $desktop-width) {
     .dash-100{
         visibility: hidden;
     }
@@ -78,12 +85,8 @@ html {
         visibility: hidden;
     }
 
-    .sentence{
-        text-align: center;
-    }
-
-    .name{
-        font-size: calc(1.5rem + 2.5vmin);
-    }
+    // .sentence{
+    //     text-align: center;
+    // }
 
 }
