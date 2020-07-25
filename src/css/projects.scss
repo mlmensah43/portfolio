@@ -1,3 +1,5 @@
+@import '../css/variables.scss';
+
 .projects-center{
     margin-left: 10vw;
     /* align-items: center; */
@@ -19,19 +21,19 @@
 
 .project-description{
     margin: 20% 0 0 0;
-    font-size: 1.1rem;
+    font-size: $body-size;
     width: 35vw;
 }
 
 .link{
-    color: white;
+    color: $link-color;
     text-decoration: none;
  
 }
 
 
 .button {
-    background-color: rgba(255, 255, 255, 0.3); 
+    background-color: $primary-color; 
     border-radius: 25px;
     border: none;
     padding: 10px 20px;
