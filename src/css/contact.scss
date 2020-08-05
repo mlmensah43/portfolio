@@ -1,0 +1,41 @@
+@import '../css/variables.scss';
+
+#contact{
+    
+    div{
+        align-items: center;
+        margin: 45vh 0 0 0;
+        div{ 
+            margin: 10vh 0;
+        }
+        
+        
+    }
+    // div{
+    //     text-align: center;
+    //     a{
+    //         margin: 0 0 0 0;
+    //         text-decoration: none;
+    //         color: $secondary-color;
+    //     }
+    // }
+}
+
+
+
+
+@media screen and (min-width: $desktop-width) {
+
+    #contact{
+        div{
+            align-items: center;
+            
+        }
+        div{
+            a{
+                margin: 0;
+            }
+        }
+    }
+
+}

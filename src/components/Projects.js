@@ -1,8 +1,8 @@
 import React from 'react';
 import Project from './Project';
 import ScrollTrigger from 'react-scroll-trigger';
-import '../css/App.css';
-import '../css/Projects.css';
+import '../css/base.scss';
+import '../css/projects.scss';
 
 let boxed_water = "Boxed water is a e-commerce webpage I redesigned of the 'Boxed Water is Better' brand of water. (This is not for the official site and is simply for my portfolio.)";
 let adoptem = "A pet adoption web page.";
@@ -23,7 +23,7 @@ class Projects extends React.Component{
     return (
         <ScrollTrigger id="projects" className="" throttleScroll={0} onEnter={this.onEnterViewport}>
 
-                <div className="flex-container-column projects-center">
+                <div className="flex-container-row project-row projects-center">
                     <Project 
                         title="Boxed Water" 
                         image={require('../images/water.png')} 
@@ -46,7 +46,7 @@ class Projects extends React.Component{
                         >
                     </Project>
 
-                    <Project 
+                    {/* <Project 
                         title="Gallery" 
                         image={require('../images/gallery.png')} 
                         description={gallery}
@@ -55,7 +55,7 @@ class Projects extends React.Component{
                         press2={"CODE →"}
                         link2="https://github.com/mlmensah43/gallery"
                         >
-                    </Project>
+                    </Project> */}
 
                     <Project 
                         title="Mimir" 

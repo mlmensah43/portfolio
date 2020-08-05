@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/App.css'
-import '../css/Projects.css'
+import '../css/base.scss'
+import '../css/projects.scss'
 
 function button1(word, name){
     if(word !== ""){
@@ -15,23 +15,20 @@ function button1(word, name){
 function Project(props){
 
     return (
-        <div>
-            <div className="flex-container-row project-row">
+        <div id="project">
+            <div className="card" style={{width: "18rem"}}>
 
-                    <img className="project-image" alt="project" src={props.image}></img>
-    
+                <img className="card-img-top" style={{width: "18rem"}} alt="project" src={props.image}></img>
                 
-                
-                <div className="project-description">
-                    <p className="project-title">{props.title}</p>
+                <div className="card-body">
+                    <p className="card-title">{props.title}</p>
                     
-                    <p>{props.description}</p>
+                    {/* <p className="card-text">{props.description}</p> */}
 
                     <div className="flex-container-row button-row">
                         {button1(props.link1,props.press1)}
-                        <button className="button"><a className="link" href={props.link2}>{props.press2}</a></button>
+                        <button className="btn button"><a className="link" href={props.link2}>{props.press2}</a></button>
                     </div>
-                    
                     
                     
                 </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/App.css';
+import '../css/base.scss';
 import Nav from './Nav'
 import Intro from './Intro'
 import About from './About'
@@ -22,7 +22,7 @@ class App extends React.Component {
     if(this.state.page === "INTRO"){
       return(
           <div>
-            <div className="flex-container-column progress">
+            <div className="flex-container-column progress-side">
                 <div className="dash-100"></div>
                 <div className="dash-50"></div>
                 <div className="dash-50"></div>
@@ -36,7 +36,7 @@ class App extends React.Component {
 
     else if(this.state.page === "ABOUT"){
       return(
-      <div className="flex-container-column progress">
+      <div className="flex-container-column progress-side">
           <div className="dash-50"></div>
           <div className="dash-100"></div>
           <div className="dash-50"></div>
@@ -45,7 +45,7 @@ class App extends React.Component {
 
     else if(this.state.page === "PROJECTS"){
       return(
-      <div className="flex-container-column progress">
+      <div className="flex-container-column progress-side">
           <div className="dash-50"></div>
           <div className="dash-50"></div>
           <div className="dash-100"></div>
@@ -54,7 +54,7 @@ class App extends React.Component {
 
     else if(this.state.page === "CONTACT"){
       return(
-      <div className="flex-container-column progress">
+      <div className="flex-container-column progresss-side">
           <div className="dash-50"></div>
           <div className="dash-50"></div>
           <div className="dash-50"></div>

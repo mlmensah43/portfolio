@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/App.css';
+import '../css/base.scss';
 import Intro from './Intro'
 import About from './About'
 import Projects from './Projects'
