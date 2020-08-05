@@ -1,7 +1,7 @@
 import React from 'react';
 import 'animate.css';
 import '../css/base.scss'
-import '../css/Footer.css'
+import '../css/footer.scss'
 
 function horizontal (direction) {
     if(direction === 'horizontal'){
@@ -15,9 +15,9 @@ function horizontal (direction) {
                     <img className="contact-image" alt="github" src={require('../images/github.png')}></img>
                 </a>
             
-                <a className="contact-icon behance" href="https://www.behance.net/mariahm207">
+                {/* <a className="contact-icon behance" href="https://www.behance.net/mariahm207">
                     <b>Bē</b>
-                </a>
+                </a> */}
                 
             </div>
         );
@@ -36,9 +36,9 @@ function vertical (direction) {
                     <img className="contact-image" alt="github" src={require('../images/github.png')}></img>
                 </a>
             
-                <a className="contact-icon behance" href="https://www.behance.net/mariahm207">
+                {/* <a className="contact-icon behance" href="https://www.behance.net/mariahm207">
                     <b>Bē</b>
-                </a>
+                </a> */}
                 
             </div>
         );

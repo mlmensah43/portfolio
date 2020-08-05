@@ -1,16 +1,22 @@
 @import '../css/variables.scss';
 
+#project{
+    .card-body{
+        margin: 2vw;
+    }
+}
+
 .projects-center{
-    margin-left: 10vw;
     /* align-items: center; */
-    text-align: left;
+    text-align: center;
     /* margin: 0 10vw 10vw 10vw; */
+    justify-content: space-around;
 }
 
 .project-image{
     margin: 20% 5% 0 0;
-    width: 40vw;
-    max-height: 30vw;
+    width: 20vw;
+    max-height: 15vw;
 }
 
 .project-title{
@@ -36,17 +42,16 @@
     background-color: $primary-color; 
     border-radius: 25px;
     border: none;
-    padding: 10px 20px;
+    padding: 8px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
-    margin-right: 2vw;
+    font-size: 13px;
   }
 
 
   .button-row{
-    margin-left: 2vw;
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 1050px) {
@@ -56,7 +61,7 @@
     }
 
     .projects-center{
-        align-items: unset;
+        align-items: center;
         margin: 0;
     }
 
@@ -71,17 +76,17 @@
         width: 100vw;
     }
 
-    .project-description {
-       margin-left: 5%;
-       margin-top: 2%;
-       text-align: center;
-    }
+    // .project-description {
+    //    margin-left: 5%;
+    //    margin-top: 2%;
+    //    text-align: center;
+    // }
 
-    .button-row{
-        justify-content: center;
-    }
+    // .button-row{
+    //     justify-content: center;
+    // }
 
-    .button{
-        font-size: 13px;
-    }
+    // .button{
+    //     font-size: 13px;
+    // }
 }

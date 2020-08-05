@@ -3,7 +3,7 @@ import ScrollTrigger from 'react-scroll-trigger';
 import 'animate.css';
 import '../css/base.scss'
 import '../css/intro.scss'
-// import Footer from './Footer';
+import Footer from './Footer';
 
 
 
@@ -25,9 +25,9 @@ class Intro extends React.Component {
                     <div className="subheader job-title">front end web developer</div>        
                 </div>
 
-                {/* <div >
+                <div >
                     <Footer direction="horizontal"></Footer>
-                </div> */}
+                </div>
                 
             </ScrollTrigger>
         );

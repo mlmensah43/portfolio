@@ -29,8 +29,13 @@
 
 .body-text{
     font-size: $body-size;
+    color: $secondary-color;
 }
 
+.body-text-bigger{
+    font-size: $subheader-size;
+    color: $secondary-color
+}
 
 .flex-container-row{
     display: flex;
@@ -48,7 +53,7 @@
     width: 100vw;
 }
 
-.progress{
+.progress-side{
     margin-top: 35vh;
     position: fixed;
     left: 95%;

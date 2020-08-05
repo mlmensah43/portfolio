@@ -1,3 +1,5 @@
+@import '../css/variables.scss';
+
 .footer-vertical{
     position: fixed;
     margin: 45vh 0 0 3vw;
@@ -8,22 +10,21 @@
 
 .footer-horizontal{
     visibility: hidden;
-    margin: 30vh 0 0 0;
+    margin: 0;
     justify-content: center;
 }
 
 .contact-icon{
     margin: 1.5vmin 0;
-    opacity: .8;
 }
 
 .contact-image{
-    width: 3.5vmin;
+    width: 6vmin;
 }
 
 .behance{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.99);
+    color: $primary-color;
     font-size: 3.5vmin; 
 }
 
@@ -37,7 +38,7 @@
     }
 
     .contact-image{
-        width: 4vmin;
+        width: 8vmin;
     }
 
     .contact-icon{
