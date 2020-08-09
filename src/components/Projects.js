@@ -6,8 +6,9 @@ import '../css/projects.scss';
 
 let boxed_water = "Boxed water is a e-commerce webpage I redesigned of the 'Boxed Water is Better' brand of water. (This is not for the official site and is simply for my portfolio.)";
 let adoptem = "A pet adoption web page.";
-let gallery = "Gallery is simplistic image gallery.";
+// let gallery = "Gallery is simplistic image gallery.";
 let mimir = "Mimir is my senior capstone project for Oak Ridge National Labratory. I designed and prototyped the entire front end of the project and implemented most of the front end. That includes the background navbar and sidebar, the welcome page and the dashboard. ";
+let unison = "Community service based prjoct develop in Drupal";
 
 class Projects extends React.Component{
 
@@ -46,18 +47,17 @@ class Projects extends React.Component{
                         >
                     </Project>
 
-                    {/* <Project 
-                        title="Gallery" 
-                        image={require('../images/gallery.png')} 
-                        description={gallery}
-                        press1={"DEMO →"}
-                        link1="https://mlmensah43.github.io/gallery/#/"
-                        press2={"CODE →"}
-                        link2="https://github.com/mlmensah43/gallery"
-                        >
-                    </Project> */}
-
                     <Project 
+                        title="Unison" 
+                        image={require('../images/unison.png')} 
+                        description={unison}
+                        link1=""
+                        press2={"CODE →"}
+                        link2="https://github.com/mlmensah43/drupal_project"
+                        >
+                    </Project>
+
+                    {/* <Project 
                         title="Mimir" 
                         image={require('../images/mimir.png')} 
                         description={mimir}
@@ -65,7 +65,9 @@ class Projects extends React.Component{
                         press2={"CODE →"}
                         link2="https://github.com/ORNL-AMO/Mimir"
                         >
-                    </Project>
+                    </Project> */}
+
+
             </div>
         </ScrollTrigger>
         

@@ -1,9 +1,17 @@
 @import '../css/variables.scss';
 
 #project{
+    // .card{
+    //     border-style: hidden;
+    // }
     .card-body{
         margin: 2vw;
     }
+}
+
+.project-row{
+    // width: 60vw;
+    margin: 0 5vw;
 }
 
 .projects-center{
