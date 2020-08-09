@@ -18,7 +18,7 @@ function Project(props){
         <div id="project">
             <div className="card" style={{width: "18rem"}}>
 
-                <img className="card-img-top" style={{width: "18rem"}} alt="project" src={props.image}></img>
+                <img className="card-img-top" style={{width: "18rem", height:"14rem"}} alt="project" src={props.image}></img>
                 
                 <div className="card-body">
                     <p className="card-title">{props.title}</p>
