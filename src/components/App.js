@@ -52,7 +52,7 @@ class App extends React.Component {
           <div className="dash-50"></div>
       </div>);}
 
-    else if(this.state.page === "CONTACT"){
+    else if(this.state.page === "LAST"){
       return(
       <div className="flex-container-column progresss-side">
           <div className="dash-50"></div>

@@ -1,11 +1,10 @@
 @import '../css/variables.scss';
 
 .footer-vertical{
-    position: fixed;
     margin: 45vh 0 0 3vw;
     visibility: visible;
-    /* justify-content: center; */
-    /* align-items: center; */
+    position: fixed;
+    z-index: 20000;
 }
 
 .footer-horizontal{
@@ -31,6 +30,7 @@
 @media screen and (max-width: 1050px) {
     .footer-vertical{
         visibility: hidden;
+        margin: 0;
     }
 
     .footer-horizontal{

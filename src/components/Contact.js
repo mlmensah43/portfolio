@@ -10,13 +10,15 @@ import '../css/contact.scss'
 class Contact extends React.Component{
 
     onEnterViewport = () =>{
-        this.props.title("CONTACT");
+        this.props.title("LAST");
+        console.log("ENTER: 4");
     }
         
     
-    // onExitViewport = () => {
-    //     this.props.title("CONTACT");
-    // }
+    onExitViewport = () => {
+        this.props.title("PROJECTS");
+        console.log("EXIT: 4");
+    }
 
     render(){
     return (
@@ -25,16 +27,16 @@ class Contact extends React.Component{
             {/* <div className="page-title-2">CONTACT</div> */}
             <div className="flex-container-column">
       
-                <p>mariahmensah01@gmail.com</p>
-                <p>Please feel free to contact me via email or LinkedIn. Also don't forget to check out my GitHub!</p> 
-         
-                
+                <div className="contact-text">
+                    <p>mariahmensah01@gmail.com</p>
+                    <p>Please feel free to contact me via email or LinkedIn. Also don't forget to check out my GitHub!</p> 
+                </div>   
             
 
                 <Footer direction="horizontal"></Footer>
 
                 {/* #top */}
-                <a href="/" className="body-text-bigger">Back to Top</a>
+                <a href="/" className="body-text-bigger back">Back to Top</a>
             </div>
         </ScrollTrigger>
         

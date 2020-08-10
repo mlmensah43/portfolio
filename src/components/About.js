@@ -11,9 +11,13 @@ class About extends React.Component{
         this.props.title("ABOUT");
     }
 
+    onExitViewport = () => {
+        this.props.title("INTRO");
+    }
+
     render(){
     return (
-        <ScrollTrigger id="about" className="page body-text" throttleScroll={0} onEnter={this.onEnterViewport}>
+        <ScrollTrigger id="about" className="page body-text" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
 
                 <div className="flex-container-column">
                         <p className="about-sentences">

@@ -4,15 +4,13 @@
     text-align: center;
     div{
         align-items: center;
-        margin: 45vh 0 0 0;
-        p{
+        .contact-text{
+            margin: 40vh 0;
             width: 85vw;
         }
-        div{ 
-            margin: 10vh 0;
+        .back{
+            margin: 5vh 0;
         }
-        
-        
     }
 
 }
@@ -22,17 +20,11 @@
 
 @media screen and (min-width: $desktop-width) {
 
-    #contact{
+    #about{
         div{
-            align-items: center;
+            margin: 20vh 0 0 0;
             p{
                 width: 55vw;
-            }
-            
-        }
-        div{
-            a{
-                margin: 0;
             }
         }
     }

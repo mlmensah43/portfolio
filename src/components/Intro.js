@@ -15,9 +15,13 @@ class Intro extends React.Component {
         this.props.title("INTRO");
     }
 
+    onExitViewport = () => {
+        this.props.title("ABOUT");
+    }
+
     render(){
         return (
-            <ScrollTrigger id="intro" className="page" throttleScroll={0} onEnter={this.onEnterViewport}>
+            <ScrollTrigger id="intro" className="page" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
     
                 {/* <div className="page-title-2 intro-visible">INTRO</div> */}
                 <div className="flex-container-column">
