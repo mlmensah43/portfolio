@@ -7,17 +7,14 @@ import '../css/about.scss'
 
 class About extends React.Component{
 
-    onEnterViewport = () =>{
+    onProgress= () =>{
         this.props.title("ABOUT");
-    }
-
-    onExitViewport = () => {
-        this.props.title("INTRO");
+        console.log("ENTER: 2");
     }
 
     render(){
     return (
-        <ScrollTrigger id="about" className="page body-text" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
+        <ScrollTrigger id="about" className="page body-text" throttleScroll={0} onProgress={this.onProgress}>
 
                 <div className="flex-container-column">
                         <p className="about-sentences">

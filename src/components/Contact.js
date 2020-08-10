@@ -9,20 +9,14 @@ import '../css/contact.scss'
 
 class Contact extends React.Component{
 
-    onEnterViewport = () =>{
+    onProgress = () =>{
         this.props.title("LAST");
         console.log("ENTER: 4");
-    }
-        
-    
-    onExitViewport = () => {
-        this.props.title("PROJECTS");
-        console.log("EXIT: 4");
     }
 
     render(){
     return (
-        <ScrollTrigger id="contact" className="page body-text" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
+        <ScrollTrigger id="contact" className="page body-text" throttleScroll={0} onProgress={this.onProgress}>
 
             {/* <div className="page-title-2">CONTACT</div> */}
             <div className="flex-container-column">

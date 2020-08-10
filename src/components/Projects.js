@@ -14,18 +14,15 @@ class Projects extends React.Component{
     
 
 
-    onEnterViewport = () =>{
+    onProgress = () =>{
         this.props.title("PROJECTS");
-    }
-
-    onExitViewport = () => {
-        this.props.title("ABOUT");
+        console.log("ENTER: 3");
     }
 
 
     render(){
     return (
-        <ScrollTrigger id="projects" className="page" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
+        <ScrollTrigger id="projects" className="page" throttleScroll={0} onProgress={this.onProgress}>
 
                 <div className="flex-container-row project-row projects-center">
                     <Project 

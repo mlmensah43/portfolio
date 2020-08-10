@@ -11,17 +11,14 @@ import Footer from './Footer';
 class Intro extends React.Component {
 
 
-    onEnterViewport = () =>{
+    onProgress = () =>{
         this.props.title("INTRO");
-    }
-
-    onExitViewport = () => {
-        this.props.title("ABOUT");
+        console.log("ENTER: 1");
     }
 
     render(){
         return (
-            <ScrollTrigger id="intro" className="page" throttleScroll={0} onEnter={this.onEnterViewport} onExit={this.onExitViewport}>
+            <ScrollTrigger id="intro" className="page" throttleScroll={0} onProgress={this.onProgress}>
     
                 {/* <div className="page-title-2 intro-visible">INTRO</div> */}
                 <div className="flex-container-column">
