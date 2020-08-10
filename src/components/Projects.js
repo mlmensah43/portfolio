@@ -4,12 +4,11 @@ import ScrollTrigger from 'react-scroll-trigger';
 import '../css/base.scss';
 import '../css/projects.scss';
 
-let boxed_water = "Boxed water is a e-commerce webpage I redesigned of the 'Boxed Water is Better' brand of water. (This is not for the official site and is simply for my portfolio.)";
-let adoptem = "A pet adoption web page.";
+let boxed_water = "E-commerce site";
+let adoptem = "Pet adoption site.";
 // let gallery = "Gallery is simplistic image gallery.";
 let mimir = "Mimir is my senior capstone project for Oak Ridge National Labratory. I designed and prototyped the entire front end of the project and implemented most of the front end. That includes the background navbar and sidebar, the welcome page and the dashboard. ";
-let unison = "Community service based prjoct develop in Drupal";
-
+let unison = "Community outreach site";
 class Projects extends React.Component{
 
     
@@ -27,7 +26,7 @@ class Projects extends React.Component{
                 <div className="flex-container-row project-row projects-center">
                     <Project 
                         title="Boxed Water" 
-                        image={require('../images/water.png')} 
+                        image={require('../images/water-2.png')} 
                         description={boxed_water}
                         press1={"DEMO →"}
                         link1="https://mlmensah43.github.io/boxed_water/#/"
@@ -38,7 +37,7 @@ class Projects extends React.Component{
 
                     <Project 
                         title="Adoptem" 
-                        image={require('../images/adoptem.png')} 
+                        image={require('../images/adoptem-2.png')} 
                         description={adoptem}
                         press1={"DEMO →"}
                         link1="https://mlmensah43.github.io/adoptem/#/"
@@ -49,7 +48,7 @@ class Projects extends React.Component{
 
                     <Project 
                         title="Unison" 
-                        image={require('../images/unison.png')} 
+                        image={require('../images/unison-2.png')} 
                         description={unison}
                         link1=""
                         press2={"CODE →"}
