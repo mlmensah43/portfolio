@@ -1,24 +1,20 @@
 @import '../css/variables.scss';
 
 #contact{
-    
+    text-align: center;
     div{
         align-items: center;
         margin: 45vh 0 0 0;
+        p{
+            width: 85vw;
+        }
         div{ 
             margin: 10vh 0;
         }
         
         
     }
-    // div{
-    //     text-align: center;
-    //     a{
-    //         margin: 0 0 0 0;
-    //         text-decoration: none;
-    //         color: $secondary-color;
-    //     }
-    // }
+
 }
 
 
@@ -29,6 +25,9 @@
     #contact{
         div{
             align-items: center;
+            p{
+                width: 55vw;
+            }
             
         }
         div{

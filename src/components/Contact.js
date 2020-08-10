@@ -26,7 +26,7 @@ class Contact extends React.Component{
             <div className="flex-container-column">
       
                 <p>mariahmensah01@gmail.com</p>
-                <p>Please feel free to contact me and don't forget to check out <br/> my GitHub and Behance for some of my design work.</p> 
+                <p>Please feel free to contact me via email or LinkedIn. Also don't forget to check out my GitHub!</p> 
          
                 
             

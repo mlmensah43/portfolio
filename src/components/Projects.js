@@ -7,7 +7,7 @@ import '../css/projects.scss';
 let boxed_water = "E-commerce site";
 let adoptem = "Pet adoption site.";
 // let gallery = "Gallery is simplistic image gallery.";
-let mimir = "Mimir is my senior capstone project for Oak Ridge National Labratory. I designed and prototyped the entire front end of the project and implemented most of the front end. That includes the background navbar and sidebar, the welcome page and the dashboard. ";
+// let mimir = "Mimir is my senior capstone project for Oak Ridge National Labratory. I designed and prototyped the entire front end of the project and implemented most of the front end. That includes the background navbar and sidebar, the welcome page and the dashboard. ";
 let unison = "Community outreach site";
 class Projects extends React.Component{
 
@@ -21,7 +21,7 @@ class Projects extends React.Component{
 
     render(){
     return (
-        <ScrollTrigger id="projects" className="" throttleScroll={0} onEnter={this.onEnterViewport}>
+        <ScrollTrigger id="projects" className="page" throttleScroll={0} onEnter={this.onEnterViewport}>
 
                 <div className="flex-container-row project-row projects-center">
                     <Project 

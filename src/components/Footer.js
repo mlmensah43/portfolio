@@ -7,15 +7,15 @@ function horizontal (direction) {
     if(direction === 'horizontal'){
         return (
             <div className="flex-container-row footer-horizontal">
-                <a className="contact-icon" href="https://linkedin.com/in/mlmensah43">
-                    <img className="contact-image" alt="linkedin" src={require('../images/linkedin.png')}></img>
+                <a className="contact-icon" href="https://linkedin.com/in/mlmensah43" target="_blank" rel="noopener noreferrer">
+                    <img className="contact-image" alt="linkedin" src={require('../images/LinkedIn.png')}></img>
                 </a>
 
-                <a className="contact-icon" href="https://github.com/mlmensah43">
-                    <img className="contact-image" alt="github" src={require('../images/github.png')}></img>
+                <a className="contact-icon" href="https://github.com/mlmensah43" target="_blank" rel="noopener noreferrer">
+                    <img className="contact-image" alt="github" src={require('../images/Github.png')}></img>
                 </a>
             
-                {/* <a className="contact-icon behance" href="https://www.behance.net/mariahm207">
+                {/* <a className="contact-icon behance" href="https://www.behance.net/mariahm207" target="_blank">
                     <b>Bē</b>
                 </a> */}
                 
@@ -28,15 +28,15 @@ function vertical (direction) {
     if(direction === 'vertical'){
         return (
             <div className="flex-container-column footer-vertical">
-                <a className="contact-icon" href="https://linkedin.com/in/mlmensah43">
-                    <img className="contact-image" alt="linkedin" src={require('../images/linkedin.png')}></img>
+                <a className="contact-icon" href="https://linkedin.com/in/mlmensah43" target="_blank" rel="noopener noreferrer">
+                    <img className="contact-image" alt="linkedin" src={require('../images/LinkedIn.png')}></img>
                 </a>
 
-                <a className="contact-icon" href="https://github.com/mlmensah43">
-                    <img className="contact-image" alt="github" src={require('../images/github.png')}></img>
+                <a className="contact-icon" href="https://github.com/mlmensah43" target="_blank"rel="noopener noreferrer">
+                    <img className="contact-image" alt="github" src={require('../images/Github.png')}></img>
                 </a>
             
-                {/* <a className="contact-icon behance" href="https://www.behance.net/mariahm207">
+                {/* <a className="contact-icon behance" href="https://www.behance.net/mariahm207" target="_blank">
                     <b>Bē</b>
                 </a> */}
                 
@@ -48,7 +48,7 @@ function vertical (direction) {
 
 const Footer = (props) => {
     return(
-        <div>
+        <div className="section">
             {vertical(props.direction)}
             {horizontal(props.direction)}
         </div>

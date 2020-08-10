@@ -1,12 +1,12 @@
 import React from 'react';
-import '../css/Nav.css';
+import '../css/nav.scss';
 
 
 const Nav = (props) =>{
     
     return(
         // <div className="flex-container-row nav">
-        <div className="flex-container-row nav">
+        <div id="nav" className="flex-container-row">
             <div className="flex-container-column logo">
                 <img className="logo-image" src={require('../images/logo.png')} alt="logo"></img>
            

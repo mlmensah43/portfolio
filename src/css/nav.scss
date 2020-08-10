@@ -1,0 +1,40 @@
+// .nav{
+//     /* background: rgba(0, 0, 0, 0.1); */
+//     width: 100vw;
+//     position: fixed;
+// }
+
+#nav{
+    width: 100vw;
+    position: fixed;
+    div{
+        margin: 1vh auto;
+        align-items: center;
+        /* position: fixed; */
+        img{
+            height: 10vmin;
+            width: 10vmin;
+            z-index: -10000;
+        }
+        
+    }
+}
+
+
+// .logo-image{
+//     height: 10vmin;
+//     width: 10vmin;
+//     z-index: -1000;
+// }
+
+// .nav-links{
+//     /* justify-content: flex-end; */
+//     list-style: none;
+//     font-size: 3vmin;
+
+// }
+
+// .nav-link{
+//     display: inline-block;
+//     margin: 0 5vmin;
+// }
