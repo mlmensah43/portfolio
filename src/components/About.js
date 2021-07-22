@@ -21,8 +21,7 @@ class About extends React.Component{
                             BS Computer Science<br/> Tennessee Technological University
                         </p>
                         <p className="about-spiel">
-                        I graduated last year from Tennessee Tech University with a bachelors in Computer Science. For the past four months I interned with Achieve Internet. I was to be hired on full time but due to the pandemic they had to reduce their workforce. Since then I have been working on personal projects and am actively searching for a full time web development position. Below are some of my most recent projects.
- 
+                        Hi, I my name is Mariah! I currently work as a Software Support Engineer for Achieve Internet. When I’m not working you can find me hanging out with my family, playing tons of video games, binging tv and movies, and of course working on development projects. You can check out some of my projects below!
                         </p>
                 </div>   
                  
