@@ -21,7 +21,7 @@ class About extends React.Component{
                             BS Computer Science<br/> Tennessee Technological University
                         </p>
                         <p className="about-spiel">
-                        Hi, I my name is Mariah! I currently work as a Software Support Engineer for Achieve Internet. When I’m not working you can find me hanging out with my family, playing tons of video games, binging tv and movies, and of course working on development projects. You can check out some of my projects below!
+                        Hi, my name is Mariah! I currently work as a Software Support Engineer at Recharge Payments. When I’m not working you can find me hanging out with my family, gaming, biking, and of course working on development projects. You can check out some of my projects below!
                         </p>
                 </div>   
                  

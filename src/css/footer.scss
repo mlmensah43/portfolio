@@ -2,20 +2,22 @@
 
 .footer-vertical{
     margin: 45vh 0 0 3vw;
-    visibility: visible;
+    visibility: hidden;
     position: fixed;
     z-index: 20000;
 }
 
 .footer-horizontal{
-    visibility: hidden;
-    margin: 0;
+    visibility: visible;
+    margin: 0 3vmin;
     justify-content: center;
 }
 
 .contact-icon{
-    margin: 1.5vmin 0;
+    margin: 1.5vmin 3vmin;
+    // z-index: 100;
 }
+
 
 .contact-image{
     width: 6vmin;
@@ -41,9 +43,6 @@
         width: 8vmin;
     }
 
-    .contact-icon{
-        margin: 0 3vmin;
-    }
     .behance{
         font-size: 4vmin;
     }

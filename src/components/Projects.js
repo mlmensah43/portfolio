@@ -25,7 +25,7 @@ class Projects extends React.Component{
         <ScrollTrigger id="projects" className="page" throttleScroll={0} onProgress={this.onProgress}>
 
                 <div className="flex-container-row project-row projects-center">
-                    <Project 
+                    {/* <Project 
                         title="Boxed Water" 
                         image={require('../images/water-2.png')} 
                         description={boxed_water}
@@ -34,14 +34,14 @@ class Projects extends React.Component{
                         press2={"CODE →"}
                         link2="https://github.com/mlmensah43/boxed_water"
                         >
-                    </Project>
+                    </Project> */}
 
                     <Project 
                         title="Adoptem" 
                         image={require('../images/adoptem-2.png')} 
                         description={adoptem}
-                        press1={"DEMO →"}
-                        link1="https://mlmensah43.github.io/adoptem/#/"
+                        press1={"VISIT →"}
+                        link1="https://adoptemportfolioproject.com/"
                         press2={"CODE →"}
                         link2="https://github.com/mlmensah43/adoptem"
                         >

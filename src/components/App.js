@@ -73,9 +73,9 @@ class App extends React.Component {
 
                 <div className="flex-container-row">
 
-                    <div className="flex-container-column">
+                    {/* <div className="flex-container-column">
                         <Footer direction="vertical"></Footer>
-                    </div>
+                    </div> */}
                     
                     <div className="flex-container-column ">
                     

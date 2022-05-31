@@ -26,9 +26,9 @@ class Intro extends React.Component {
                     <div className="subheader job-title">front end web developer</div>        
                 </div>
 
-                <div >
+                {/* <div >
                     <Footer direction="horizontal"></Footer>
-                </div>
+                </div> */}
                 
             </ScrollTrigger>
         );

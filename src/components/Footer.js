@@ -7,11 +7,11 @@ function horizontal (direction) {
     if(direction === 'horizontal'){
         return (
             <div className="flex-container-row footer-horizontal">
-                <a className="contact-icon" href="https://linkedin.com/in/mlmensah43" target="_blank" rel="noopener noreferrer">
+                <a className="contact-icon" href="https://linkedin.com/in/mlmensah43" >
                     <img className="contact-image" alt="linkedin" src={require('../images/LinkedIn.png')}></img>
                 </a>
 
-                <a className="contact-icon" href="https://github.com/mlmensah43" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mlmensah43" className="contact-icon" >
                     <img className="contact-image" alt="github" src={require('../images/Github.png')}></img>
                 </a>
             
