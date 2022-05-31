@@ -23,7 +23,7 @@ class Intro extends React.Component {
                 {/* <div className="page-title-2 intro-visible">INTRO</div> */}
                 <div className="flex-container-column">
                     <div className="header name">mariah mensah</div>
-                    <div className="subheader job-title">front end web developer</div>        
+                    <div className="subheader job-title">web developer</div>        
                 </div>
 
                 {/* <div >
