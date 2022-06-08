@@ -43,7 +43,7 @@ class Projects extends React.Component{
                         press1={"VISIT →"}
                         link1="https://adoptemportfolioproject.com/"
                         press2={"CODE →"}
-                        link2="https://github.com/mlmensah43/adoptem"
+                        link2="https://github.com/mlmensah43/adoptem_two"
                         >
                     </Project>
 
